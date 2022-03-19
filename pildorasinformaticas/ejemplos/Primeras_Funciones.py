@@ -1,5 +1,8 @@
 def suma(a, b):
-	return a+b
+	
+	suma = a+b
+
+	return suma
 
 a = 32
 b = 1
