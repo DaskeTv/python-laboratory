@@ -1,5 +1,5 @@
 #Son listas inmutables, no se pueden modificar despues de su creacion.
-#No permiten anadir, eliminar o mover elementos. No permiten busquedas(excepto comprobar si una var esta en la tupla).
+#No permiten anadir, eliminar o mover elementos.
 #Permiten extraer porciones.
 #Son mas rapidas, ocupan menos espacio, formatean Strings y pueden utilizarse como claves en un diccionario.
 
