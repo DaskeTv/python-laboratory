@@ -13,12 +13,13 @@ def divide(num1,num2):
 		return num1/num2
 	except ZeroDivisionError:
 		print("no se puede dividir entre 0")
+		return "Operacion erronea"
 
-op1=(int(input("Introduce el primer n鷐ero: ")))
+op1=(int(input("Introduce el primer n煤mero: ")))
 
-op2=(int(input("Introduce el segundo n鷐ero: ")))		
+op2=(int(input("Introduce el segundo n煤mero: ")))		
 	
-operacion=input("Introduce la operaci髇 a realizar (suma,resta,multiplica,divide): ")
+operacion=input("Introduce la operaci贸n a realizar (suma,resta,multiplica,divide): ")
 
 if operacion=="suma":
 	print(suma(op1,op2))
@@ -33,7 +34,7 @@ elif operacion=="divide":
 	print(divide(op1,op2))
 
 else:
-	print ("Operaci髇 no contemplada")
+	print ("Operaci贸n no contemplada")
 
 
-print("Operaci髇 ejecutada. Continuaci髇 de ejec鷆i髇 del programa ")
+print("Operaci贸n ejecutada. Continuaci贸n de ejec煤ci贸n del programa ")
